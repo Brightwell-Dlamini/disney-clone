@@ -11,7 +11,7 @@ function SearchPage({ params: { term } }: Props) {
   const termToUse = decodeURI(term);
   //   API CALL TO GET THE SEARCHED MOVIES
   //   API CALL TO GET THE POPULAR
-  return <div>Welcome to the Search Page</div>;
+  return <div> Welcome to the search page {term}</div>;
 }
 
 export default SearchPage;
